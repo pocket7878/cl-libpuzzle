@@ -20,7 +20,7 @@
   :components ((:module "src"
                 :components
                 ((:file "cl-libpuzzle"))))
-  :description ""
+  :description "libpuzzle(http://www.pureftpd.org/project/libpuzzle) binding for Common Lisp"
   :long-description
   #.(with-open-file (stream (merge-pathnames
                              #p"README.markdown"
